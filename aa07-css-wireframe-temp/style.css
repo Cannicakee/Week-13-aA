@@ -1,0 +1,39 @@
+#root {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav__upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__lower {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.upper__right a {
+    color: green;
+}
+
+.upper__right a:nth-child(2) {
+    border: 1px solid green;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.upper__right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
